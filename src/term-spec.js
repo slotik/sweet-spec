@@ -908,3 +908,6 @@ declare export class MappedTsTypeNode extends TsTypeNode {
 declare export class LiteralTsTypeNode extends TsTypeNode {
   literal: Expression;
 }
+
+// Flow type annotations types
+declare export class FlowTypeNode extends TypeNode {}
